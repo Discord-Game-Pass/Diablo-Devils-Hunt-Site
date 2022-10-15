@@ -16,7 +16,7 @@ RUN pip install --use-deprecated=legacy-resolver -U -r requirements.txt
 
 COPY / /web
 
-ENV DOMAIN="diablo.discordgamepass.com"
+ENV DOMAIN="localhost"
 ENV SECRET_KEY=""
 ENV DEBUG="False"
 ENV DB_PORT="5432"
